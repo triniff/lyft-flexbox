@@ -142,3 +142,49 @@ header{
 .text-info{
 	padding: 30px;
 }
+
+/*footer*/
+footer{
+	background-color: #333447;
+	color: #fff;
+}
+
+.social{
+	flex-direction: column;
+}
+
+footer a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+footer ul li{
+	list-style: none;
+	padding: 10px;
+}
+
+footer h2{
+	font-size: 19px;
+}
+
+.social img{
+	width: 150px;
+	height: 75px;
+}
+
+.bold{
+	font-weight: 700;
+}
+
+.list{
+	justify-content: flex-start;
+	padding: 50px;
+}
+.list h2{
+	margin: 0;
+}
+
+.drive, .partner, .learn{
+	margin-right: 50px;
+}
