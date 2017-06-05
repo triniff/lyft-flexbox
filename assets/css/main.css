@@ -1,0 +1,144 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+  font-size: 16px;
+
+  /* Enlaza la tipografia Open Sans */
+ font-family: 'Montserrat', sans-serif;
+}
+.flex-container{
+	display: flex;
+}
+/*menu*/
+nav{
+	flex-direction: row;
+	justify-content: space-between;
+	position: fixed;
+	width: 100%;
+}
+.logo{
+	width: 80px;
+	height: 60px;
+	justify-content: flex-start;
+	padding: 40px;
+	margin-left: 50px;
+}
+
+.menu{
+	list-style: none;
+	padding: 50px;
+	justify-content: flex-end;
+	margin-right: 50px;
+}
+.menu li a{
+	margin: 20px;
+	padding: 10px 20px;
+	color: #fff;
+	text-decoration: none;
+	list-style: none;
+}
+.menu li a:hover{
+	color: #ff00bf;
+}
+.login{
+	border: 1px solid #fff;
+	border-radius: 10px;
+}
+.hide{
+	display: none;
+}
+/*video*/
+video { 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: 100%;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+/*formulario*/
+header{
+	justify-content: flex-end;
+	height: 750px;
+
+}
+.form {
+	height: 300px;
+	width: 550px;
+	margin-top: 200px;
+	background-color: #EDE9E2;
+	padding: 60px 40px;
+}
+
+.form h4{
+	color: #352384;
+	font-size: 2.5em;
+	margin: 0;
+}
+.form .sign{
+	color: #352384;
+	font-size: 0.9em;
+	color: #352384;
+
+}
+.form input {
+	background-color: #EDE9E2;
+	width: 90%;
+	height: 30px;
+	margin-top: 10px;
+    border: 0;
+    border-bottom: 1px solid #352384;
+    outline: 0;
+}
+/*boton*/
+#sign-up{
+	color: #EDE9E2;
+	font-size: 0.9em;
+	background-color: #ff00bf;
+	padding: 13px 30px;
+	margin-top: 20px;
+
+	
+	/*borde*/
+	border: 0;
+	border-radius: 5px;
+}
+
+.form p {
+	font-size: 0.7em;
+	color: #728099;
+}
+.form p a {
+	color: #ff00bf;
+}
+.ride{
+	color: #728099;
+	margin-left: 20px;
+}
+.ride:hover{
+	color: #ff00bf;
+}
+
+/*section info*/
+
+#info{
+	background: linear-gradient(#76278f,#2b1e66);
+	color: #fff;
+	padding: 100px 150px;
+	height: 500px;
+}
+#info img{
+	width: 65%;
+	padding-left: 200px;
+}
+
+.text-info h2{
+	margin: 0;
+}
+.text-info{
+	padding: 30px;
+}
